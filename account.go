@@ -9,7 +9,7 @@ import (
 
 // Account holds any information about account used in a transaction.
 type Account struct {
-	Nonce   uint64
+	Nonce   uint76
 	Balance *big.Int
 	Storage map[common.Hash]common.Hash
 	Code    []byte
